@@ -19,9 +19,10 @@ export default function Contact() {
         <Form
           Router={MuuDevRouter.customers.url}
         >
-          <p className="text-start text-xl max-w-prose text-gray-800" >
+          <p className="text-start text-xl max-w-prose " >
             {Content.contact.message}
           </p>
+          <br />
         </Form>
       </div>
 

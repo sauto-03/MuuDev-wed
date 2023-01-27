@@ -49,7 +49,11 @@ export default function Form(props) {
   return (
     <>
 
-      <div className="w-full max-w-2xl  p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full max-w-2xl  p-4 
+      rounded-lg shadow 
+      sm:p-6 md:p-8 
+      bg-gray-800 
+      border-gray-700">
 
         {
           props.children
@@ -68,15 +72,26 @@ export default function Form(props) {
           setMessage("");
         }} >
 
+          <div className="" >
 
-          <Input
-            label={"name"}
-            placeholder={"your Name"}
-            setStatus={setName}
-            status={name}
-            type={'text'}
-          />
+            <Input
+              label={"name"}
+              placeholder={"your Name"}
+              setStatus={setName}
+              status={name}
+              type={'text'}
+            />
 
+
+            <InputNumber
+              label={"number"}
+              placeholder={"+57 3003456789"}
+              setStatus={setNumber}
+              status={number}
+              type={'number'}
+            />
+
+          </div>
 
           <Input
             label={"email"}
@@ -85,15 +100,6 @@ export default function Form(props) {
             status={email}
             type={'email'}
           />
-
-          <InputNumber
-            label={"number"}
-            placeholder={"+57 3003456789"}
-            setStatus={setNumber}
-            status={number}
-            type={'number'}
-          />
-
 
           <TextArea
             label={"your messages"}
