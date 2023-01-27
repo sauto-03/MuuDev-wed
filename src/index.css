@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+}
+
+/*Estilos Generales*/
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 20px;
+  background-color: #242424;
+  color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.bg {
+  background-color: #242424;
+}
+
+#center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1000px) {
+
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  #center {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #center2 {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+
+}
