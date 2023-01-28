@@ -6,7 +6,7 @@ export default function Footer() {
       <Espace
         sizeEspace={5}
       ></Espace>
-      <footer className="p-4 bg-transparent rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+      <footer className="p-4 bg-transparent rounded-lg shadow md:px-6 md:py-8 ">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a className="flex items-center mb-4 sm:mb-0">
             <img src={"./logo.png"} className="h-8 mr-3" alt={"Logo"} />
@@ -27,7 +27,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-      </footer>
+      </footer >
     </>
 
   )

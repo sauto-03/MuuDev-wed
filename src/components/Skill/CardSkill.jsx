@@ -1,19 +1,15 @@
-export default function CardSkill({ photo, name }) {
+export default function CardSkill({ name, desciption }) {
   return (
-    <li class="py-3 sm:py-4">
-      <div class="flex items-center space-x-4">
-        <div class="flex-shrink-0">
-          <img class="w-8 h-8 rounded-full" src={photo} alt={name} />
-        </div>
-        <div class="flex-1 min-w-0">
-          <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-            {name}
-          </p>
-          <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-            email@windster.com
-          </p>
-        </div>
-      </div>
-    </li>
+
+    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+        {name}
+      </h5>
+      <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+        {desciption}
+      </p>
+
+    </div>
+
   )
 }

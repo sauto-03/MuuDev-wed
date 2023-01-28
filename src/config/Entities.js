@@ -1,65 +1,56 @@
-export const Skill = {
-  From: [
-    {
-      name: "React",
-      photo: "./Icons/Entities/Skill/php.jpg"
-    },
-    {
+export const Skill = [
+  {
+    name: "html",
+    photo: "./Icons/Entities/Skill/html.png"
+  },
+  {
+    name: "css",
+    photo: "./Icons/Entities/Skill/css.png"
+  },
+  {
+    name: "javascript",
+    photo: "./Icons/Entities/Skill/js.png"
+  },
+  {
 
-      name: "Html",
-      photo: "./Icons/Entities/Skill/vue.png"
-    }, {
-      name: "Css",
-      photo: "./Icons/Entities/Skill/php.jpg"
-    },
-    {
+    name: "tailwincss",
+    photo: "./Icons/Entities/Skill/tailwindcss.png"
+  }, {
+    name: "react",
+    photo: "./Icons/Entities/Skill/react.png"
+  }
+  ,
+  {
+    name: "php",
+    photo: "./Icons/Entities/Skill/php.png"
+  }, {
+    name: "laravel",
+    photo: "./Icons/Entities/Skill/laravel.png"
+  }, {
+    name: "mysql",
+    photo: "./Icons/Entities/Skill/mysql.png"
+  },
+]
 
-      name: "Tailwincss",
-      photo: "./Icons/Entities/Skill/vue.png"
-    }, {
-      name: "Json",
-      photo: "./Icons/Entities/Skill/php.jpg"
-    },
-    {
 
-      name: "vue js",
-      photo: "./Icons/Entities/Skill/vue.png"
-    }
-  ],
-
-  back: [
-    {
-      name: "php",
-      photo: "./Icons/Entities/Skill/php.jpg"
-    }, {
-      name: "Laravel",
-      photo: "./Icons/Entities/Skill/php.jpg"
-    }
-  ]
-
-}
 
 export const Service = [
   {
     name: "ApiRest",
-    photo: "./Icons/Entities/Skill/vue.png"
-  },
-  {
+    description: `
+    holaholaholaholaholaholaho
+    laholaholaholaholaho
+    laholaholaholaholaholahola`
+
+  }, {
     name: "SPA",
-    photo: "./Icons/Entities/Skill/vue.png"
+    description: `holaholaholah
+    olaholaholaholaholahol
+    aholaholaholaholaholaholaholaholahola`
   }, {
     name: "MPA",
-    photo: "./Icons/Entities/Skill/vue.png"
-  }, {
-    name: "ApiRest",
-    photo: "./Icons/Entities/Skill/vue.png"
+    description: `holaholaholaholaholahola
+    holaholaholaholaholahol
+    aholaholaholaholaholaholahola`
   },
-  {
-    name: "SPA",
-    photo: "./Icons/Entities/Skill/vue.png"
-  },
-  {
-    name: "SPA",
-    photo: "./Icons/Entities/Skill/vue.png"
-  }
 ]

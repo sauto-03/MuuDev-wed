@@ -4,9 +4,9 @@ export function ListCard({ Data = [] }) {
   return (
     <>
       {
-        Data.map((i, indice) => {
+        Data.map((i) => {
           return <>
-            <CardEntities key={indice}
+            <CardEntities
               name={i.name}
               photo={i.photo}
             />

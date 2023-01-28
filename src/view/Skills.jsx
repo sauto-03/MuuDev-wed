@@ -17,23 +17,15 @@ export default function Skills() {
       <Espace
         sizeEspace={2}
       />
-      <h1 className="text-center"  >From-end</h1>
       <br />
-      <div className="container md:flex gap-3 " id="center2">
+      <div className="container md:flex gap-5 " id="center2">
         <ListCard
-          Data={Skill.From}
+          Data={Skill}
         />
       </div>
       <Espace
         sizeEspace={2}
       />
-      <h1 className="text-center"  >Back-end</h1>
-      <br />
-      <div className="container  md:flex gap-3 " id="center2" >
-        <ListCard
-          Data={Skill.back}
-        />
-      </div>
 
     </div >
 

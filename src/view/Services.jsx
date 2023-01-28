@@ -1,8 +1,8 @@
 import Title from "../components/global/Title"
 import Espace from "../components/global/Espace"
-import { ListCard } from "../components/global/ListCard"
 import { Service } from "../config/Entities"
 import List from "../components/global/List"
+import ListServices from "../components/Services/ListServices"
 
 export default function Services() {
   return (
@@ -21,7 +21,7 @@ export default function Services() {
 
 
       <List>
-        <ListCard
+        <ListServices
           Data={Service}
         />
       </List>
