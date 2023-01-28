@@ -17,17 +17,5 @@ export const Demos = [
     name: "Blog",
     photo: "./Icons/Demos/logo.png",
     description: "Es un Demo"
-  },
-  {
-    url: "*",
-    name: "Blog",
-    photo: "./Icons/Demos/logo.png",
-    description: "Es un Demo"
-  },
-  {
-    url: "*",
-    name: "Blog",
-    photo: "./Icons/Demos/logo.png",
-    description: "Es un Demo"
   }
 ]

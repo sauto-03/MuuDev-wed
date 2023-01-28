@@ -38,19 +38,19 @@ export const Service = [
   {
     name: "ApiRest",
     description: `
-    holaholaholaholaholaholaho
-    laholaholaholaholaho
-    laholaholaholaholaholahola`
+   Podemos Construir Apis que se Ajusten a tu negocio
+    `
 
   }, {
     name: "SPA",
-    description: `holaholaholah
-    olaholaholaholaholahol
-    aholaholaholaholaholaholaholaholahola`
+    description: `
+    hacemos SPAs para darle exposicion a tu negocio
+    `
   }, {
     name: "MPA",
-    description: `holaholaholaholaholahola
-    holaholaholaholaholahol
-    aholaholaholaholaholaholahola`
+    description: `
+    Podemos construir tu app de la manera tradicional
+    y asi tener todo en un mismo lugar
+    `
   },
 ]

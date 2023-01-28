@@ -2,7 +2,7 @@ export const Content = {
   nameApp: "MuuDev",
   home: {
     title: `Hola, Bienvenido a MuuDev `,
-    why: "Somos MuuDev Una empresa de fenboys ",
+    why: "En MuuDev Nos gusta construir experiencias ",
     socialMedia: {
       facebbok: {
         link: "*",
@@ -18,49 +18,19 @@ export const Content = {
   about_me: {
     logo: "./logo.png",
     description: `
-    Somos MuuDev Una empresa de fenboys 
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys 
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys 
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys 
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
-    Somos MuuDev Una empresa de fenboys
+    En MuuDev ofrecemos distintos servicios
+    a los cuales puedes haceder por medio de
+    un pago mensual
     `
   },
   contact: {
-    message: `Somos MuuDev Una empresa de fenboys
-Somos MuuDev Una empresa de fenboys
-Somos MuuDev Una empresa de fenboys 
-Somos MuuDev Una empresa de fenboys
-`
+    message: `
+Dejanos tus Datos y tu Mensage describiendo 
+como seria tu servicio ideal o contandonos 
+que quieres,en un plazo maximo de 4 dias resiviras 
+una respuesta.
+!no olvides revisar el span¡
+    `
   }
 }
 
-
-
-/**
- 
-        {/*Card de Facebook
-        <Card className="w-10 " >
-          <a className="text-center 
-        text-blue-gray-50 
-         bg-blue-900
-        text-4xl
-        rounded-t-md
-        rounded-b-md
-        " href={Content.home.facebook}>
-            <FaFacebookF></FaFacebookF>
-          </a>
-        </Card>
-
-    
- */
